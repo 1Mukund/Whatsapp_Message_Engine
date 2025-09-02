@@ -64,6 +64,16 @@ Constraints:
 - Audience: INR 2Cr+ buyers who have likely seen the project before or maybe seeing it for first time
 - Style: smart, specific, emotionally resonant; avoid emojis; no fluff; use behavioral triggers
 - Output: only the final WhatsApp message text
+- Format: 3–6 short lines, each on a new line
+- No greeting or intro, start directly with the offer
+- Use concrete numbers (₹, INR, dates, months) exactly as provided
+- End with a clear CTA: If you’d like to learn more, reply "Yes"
+
+Example (for style only, do not copy content):
+Book a 3BHK at ASBL Loft now, and from the day you book, you’ll start receiving ₹85,000 per month till December 2026.
+You only need to pay ₹7.5 lakhs to get started.
+That means you earn ₹85,000 for 14 months.
+If you’d like to learn more about how it works, reply "Yes" and our team will be in touch with you shortly.
 """.strip()
 
     if client is None:
