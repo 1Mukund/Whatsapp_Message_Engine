@@ -19,6 +19,8 @@ situation = st.selectbox("Select Buyer Situation", [
     "Investor missed booking window, may still be warm",
     "High-score CRM lead, hasn’t responded in 10 days",
     "Family buyer dropped off post cost sheet",
+    "Generating New Lead",
+    "Leads transitioned from new lead to not interested",
 ])
 
 tone = st.selectbox("Select Message Tone", [
