@@ -15,11 +15,11 @@ client = OpenAI(api_key=api_key) if api_key else None
 st.title("WhatsApp Copy Generator for Real Estate")
 st.markdown("Craft tailored churn marketing messages for high-ticket real estate buyers.")
 
-project_name = st.text_input("Project Name", value="ASBL Loft")
+project_name = st.text_input("Project Name", placeholder="ASBL Loft")
 
 offer_summary = st.text_area(
     "Enter Offer Summary",
-    value=(
+    placeholder=(
         "Earn INR 85,000/month till Dec 2026 on a 1695 sft 3BHK with just INR 7.5L booking. "
         "Located in Financial District. Total price INR 1.84 Cr."
     ),
@@ -52,7 +52,7 @@ tone = st.selectbox(
 
 if st.button("Generate WhatsApp Message"):
     prompt = f"""
-You are a highly experienced WhatsApp real estate marketing expert with decades of combined knowledge in buyer psychology and luxury sales.
+You are a social media specialist with above 60 years of experience in whatsapp marketing and way to good excellence in writing whatsapp marketing messages and your messages are so good that every user who sees must responds positive, your writing is different and influential.
 
 Generate a churn marketing WhatsApp message for the following situation:
 - Project: {project_name}
@@ -61,7 +61,7 @@ Generate a churn marketing WhatsApp message for the following situation:
 - Offer Summary: {offer_summary}
 
 Constraints:
-- Audience: INR 2Cr+ buyers who have likely seen the project before
+- Audience: INR 2Cr+ buyers who have likely seen the project before or maybe seeing it for first time
 - Style: smart, specific, emotionally resonant; avoid emojis; no fluff; use behavioral triggers
 - Output: only the final WhatsApp message text
 """.strip()
