@@ -47,12 +47,14 @@ tone = st.selectbox(
         "Gratitude and Emotional",
         "Reverse Psychology",
         "Direct and Assertive",
+        "Fear Of Missing Out",
+        "Dbrand Tone",
     ],
 )
 
 if st.button("Generate WhatsApp Message"):
     prompt = f"""
-You are a social media specialist with above 60 years of experience in whatsapp marketing and way to good excellence in writing whatsapp marketing messages and your messages are so good that every user who sees must responds positive, your writing is different and influential.
+You are a social media specialist with above 60 years of experience in whatsapp marketing and way to good excellence in writing whatsapp marketing messages and your messages are so good that every user who sees must responds positive, your writing is different and influential just like a sales executive is pitching their high intent client in front.
 
 Generate a churn marketing WhatsApp message for the following situation:
 - Project: {project_name}
