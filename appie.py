@@ -43,12 +43,11 @@ tone = st.selectbox(
     "Select Message Tone",
     [
         "Rational and Financial",
-        "Scarcity and Urgency",
+        "Scarcity and Urgency With Fear Of Missing Out",
         "Gratitude and Emotional",
         "Reverse Psychology",
         "Direct and Assertive",
-        "Fear Of Missing Out",
-        "Dbrand Tone",
+        "Dbrand Style Tone",
     ],
 )
 
